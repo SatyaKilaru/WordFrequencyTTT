@@ -103,8 +103,6 @@ body {
     position: relative;
     top: 12%;
   }
-  
-/**************SVG****************/
 
 path.one {
     transition: 0.4s;
@@ -130,7 +128,6 @@ path.two {
     animation: color_anim 1s infinite 0.4s;
 }
 
-/* SVG animations */
 
 @keyframes color_anim {
     0% {
@@ -168,7 +165,6 @@ section.container{
     overflow: hidden;
   }
 
-  /*button:before (attr data-hover)*/
   button:hover:before{opacity: 1; transform: translate(0,0);}
   button:before{
     content: attr(data-hover);
@@ -183,7 +179,6 @@ section.container{
     transform: translate(-100%,0);
     transition: all .3s ease-in-out;
   }
-    /*button div (button text before hover)*/
     button:hover div{opacity: 0; transform: translate(100%,0)}
     button div{
       text-transform: uppercase;
